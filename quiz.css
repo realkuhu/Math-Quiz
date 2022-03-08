@@ -13,3 +13,26 @@ body {
     border-radius:15px;
     align-items: center;
 }
+
+.number_div{
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
+
+#number1_input , #number2_input{
+background-color: antiquewhite;
+}
+
+#player1_name , #player1_name{
+    display:inline-block;
+    margin-left: 20px;
+    }
+
+    #output{
+        background-color: lemonchiffon;
+        border-radius: 20px;
+        border-top:10px solid rgb(23, 18, 90);
+        padding: 10px;
+        float:none;
+        text-align:left;
+    }
