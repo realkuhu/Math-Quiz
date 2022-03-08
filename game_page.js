@@ -1,3 +1,11 @@
+var player1_name = localStorage.getItem("player1_name");
+var player2_name = localStorage.getItem("player2_name");
+document.getElementById("player1_name").innerHTML = player1_name;
+document.getElementById("player2_name").innerHTML = player2_name;
+console.log("player1_name");
+document.getElementById("player_question").innerHTML = "Question Turn - "+player1_name;
+document.getElementById("player_answer").innerHTML = "Answer Turn - "+player2_name;
+
 function send() {
     number1 = document.getElementById("number1_input").value;
     number2 = document.getElementById("number2_input").value;

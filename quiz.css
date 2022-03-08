@@ -23,9 +23,10 @@ body {
 background-color: antiquewhite;
 }
 
-#player1_name , #player1_name{
+#player1_name , #player2_name, #player2_score, #player1_score{
     display:inline-block;
     margin-left: 20px;
+    color:antiquewhite;
     }
 
     #output{
